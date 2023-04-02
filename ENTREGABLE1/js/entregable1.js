@@ -27,7 +27,7 @@ function calcularLitrosAcuario() {
   
       default:
         // En el caso que no ingrese ninguna de las alternativas mostrará el siguiente mensaje
-        alert('El tipo de acuario ingresado es inválido');
+        alert('El tipo de acuario ingresado no es válido');
         return;
     }
     // Muestra por consola los litros de agua necesarios
