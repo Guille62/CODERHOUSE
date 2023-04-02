@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de sumar</title>
+</head>
+<body>
+    
+
+
+
+
+
+<script>
+  
+
+    /*function operacion(numA,numB,simbolo){
+        numA = parseInt(prompt(`Ingrese número`));
+        numB = parseInt(prompt(`Ingrese otro número`));
+        simbolo = prompt(`Ingrese tipo de operación`);
+        if(simbolo == '+'){
+            resultado = numA + numB
+        } 
+        else if(simbolo == '-'){
+            resultado = numA - numB
+        }
+        else if(simbolo == 'x'){
+            resultado = numA * numB
+        }
+        else if(simbolo == '/'){
+            resultado = numA / numB
+        }
+    }
+    operacion();
+    alert('El resultado es: ' + resultado);*/
+    function operacion(){
+        const numA = parseInt(prompt(`Ingrese número`));
+        const numB = parseInt(prompt(`Ingrese otro número`));
+        const simbolo = prompt(`Ingrese tipo de operación`);
+    
+        let resultado;
+        
+        switch(simbolo) {
+            case '+':
+                resultado = numA + numB;
+            break;
+            case '-':
+                resultado = numA - numB;
+            break;
+            case 'x':
+                resultado = numA * numB;
+            break;
+            case '/':
+                resultado = numA / numB;
+            break;
+            default:
+                alert('Operación no válida');
+            return;
+        }
+    
+        alert('El resultado es: ' + resultado);
+    }
+
+
+</script>
+</body>
+</html>
