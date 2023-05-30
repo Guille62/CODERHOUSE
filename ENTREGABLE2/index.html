@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Acuarios</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/entregable-2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/icofont.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+<body>
+    <div id="agregado" class="fixed-top d-none">
+        <p>¡Producto agregado correctamente!</p>
+    </div>
+<!-- BARRA USUARIO -->
+<div class="user-section">
+    <div class="container">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-4 offset-md-8">
+                    <div class="d-flex flex-row align-items-center justify-content-end">
+                        <div>
+                            <div id="login-btn">
+                                <div class="d-flex flex-row">
+                                    <p>Usuarios</p>
+                                    <i class="icofont-user-alt-7 ico"></i>
+                                </div>
+                            </div>
+                            <!-- LOGIN -->
+                            <div id="login" class="box-flotante d-none">
+                                <div class="col-12">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Contraseña</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <button type="submit" class="boton-compra">INGRESAR</button>
+                                    </form>
+                                </div>
+                            </div>  
+                            <!-- LOGIN -->
+                        </div>
+                        <div>
+                            <div id="cart-btn">
+                                <i class="icofont-ui-cart ico"></i>
+                            </div>
+                            <!-- CARRITO -->
+                            <div id="carrito" class="box-flotante d-none">
+                                <div class="flotante-carrito">
+                                    <div class="col-12" id="listadoCarrito"></div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="boton-compra" id="vaciarCarrito">VACIAR CARRITO</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class="boton-compra">COMPRAR</button>
+                                </div>
+                            </div>
+                            <!-- carrito-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- BARRA USUARIO -->
+<header>
+    <div class="banner"></div>
+    <div class="container pt-5 pb-5">
+        <div class="d-flex flex-align-items-center justify-content-center ">
+            <img src="img/logo_200x200.png" alt="logo" class="img-fluid logo" data-aos="fade-in" data-aos-delay="550">
+        </div>
+    </div>
+</header>
+
+<!-- MENU-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#somos">Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tienda">Tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="calculadora.html">Calculadora de Acuarios</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--wave -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#3A98B9" fill-opacity="1" d="M0,128L60,154.7C120,181,240,235,360,229.3C480,224,600,160,720,144C840,128,960,160,1080,181.3C1200,203,1320,213,1380,218.7L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+</svg>
+<!-- wave -->
+<!-- SOMOS -->
+<div class="somos" id="somos">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-2 order-md-1" data-aos="fade-right" data-aos-delay="350">
+                        <div class="row">
+                            <img src="img/somos.png" alt="somos" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 order-1 order-md-2">
+                        <h1 class="text-left" data-aos="fade-up" data-aos-delay="550">Quienes somos y por qué amamos a los peces</h1>
+                        <p class="text-justify mt-5" data-aos="fade-up" data-aos-delay="750">
+                            ¡Bienvenido a nuestra tienda de acuariofilia! Aquí encontrarás todo lo necesario para crear un acuario fascinante en tu hogar. Desde peces exóticos hasta equipos de alta calidad y accesorios decorativos, estamos comprometidos en ofrecerte productos de primera categoría y asesoramiento experto para que disfrutes de un acuario único y cautivador.
+                            <br><br>
+                            Contamos con una amplia selección de productos cuidadosamente elegidos de los mejores fabricantes del mercado. Además, ofrecemos servicios de mantenimiento de acuarios, diseño de espacios acuáticos y soluciones personalizadas. Confía en nosotros para convertir tu acuario en un oasis de belleza y serenidad. 
+                            <br><br>
+                            <b>¡Sumérgete con nosotros y deja que la magia de los acuarios cobre vida en tu hogar!</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- SOMOS -->
+<div class="container mt-5">
+    <hr>
+</div>
+<!-- CATEGORIAS -->
+<div class="container pt-5 text-center" id="tienda">
+    <h1 data-aos="fade-up" data-aos-delay="350">Tienda Virtual</h1>
+</div>
+<div class="container pt-5">
+    <div class="col-12 col-sm-8 offset-sm-2 col-md-4 offset-md-4 text-center" data-aos="fade-up" data-aos-delay="550">
+        <strong>Encuentra tu producto por categoría</strong>
+        <div class="input-group mb-3 mt-3">
+            <select class="custom-select" id="filtro-categoria" aria-label="">
+                <option value="todos">Todos</option>
+                <option value="acuarios">Acuarios</option>
+                <option value="peces">Peces</option>
+                <option value="alimentos">Alimentos</option>
+                <option value="accesorios">Accesorios</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<!-- CATEGORIAS -->
+<div class="container">
+    <div class="col-12 mt-5">
+        <div class="row contenedor-producto"></div>
+
+    </div>
+</div>
+
+
+
+<!-- wave footer -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#3A98B9" fill-opacity="1" d="M0,224L80,234.7C160,245,320,267,480,240C640,213,800,139,960,128C1120,117,1280,171,1360,197.3L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+</svg>
+<!-- wave footer-->
+<footer>
+    <!-- FORMULARIO  -->
+        <div class="container">
+            <div class="col-12">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 order-2 order-md-1 mt-5 mt-md-0">
+                        <img src="img/logo_footer.png" alt="logo footer" class="img-fluid">
+                        <br>
+                        <a href="https://goo.gl/maps/C9sgT7Qb6BBqF9dZ6" target="_blank" class="contacto">Alameda Nº420 </a>
+                        <small>
+                            - Santiago - Chile 2023
+                        </small>
+                    </div>
+                    <div class="col-12 col-md-6 order-1 order-md-2">
+                        <h1 class="mb-2">Contáctanos</h1>
+                        <form id="formulario" novalidate>
+                        <div class="form-group text-left">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                            <div class="invalid-feedback">
+                            Por favor, introduce tu nombre.
+                            </div>
+                        </div>
+                        <div class="form-group text-left">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" required>
+                            <div class="invalid-feedback">
+                            Por favor, introduce un correo electrónico válido.
+                            </div>
+                        </div>
+                        <div class="form-group text-left">
+                            <label for="comentario">Comentario:</label>
+                            <textarea class="form-control" id="comentario" rows="3" required></textarea>
+                            <div class="invalid-feedback">
+                            Por favor, introduce un comentario.
+                            </div>
+                        </div>
+                        <button type="submit" class="btn boton-compra">Enviar</button>
+                        </form>
+                        <div id="mensaje-enviado" style="display: none;">
+                            <p>El formulario ha sido enviado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- FORMULARIO -->
+</footer>
+
+
+<!-- TEMPLATE DETALLE PRODUCTO -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        
+        <div class="modal-content" id="VisualizadorDetalleProducto">
+        </div>
+
+    </div>
+</div>
+<!-- TEMPLATE DETALLE PRODUCTO -->
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/entregable3.js"></script>
+<script src="js/formulario.js"></script>
+
+</body>
+</html>

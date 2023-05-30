@@ -1,0 +1,63 @@
+
+.cover-producto{
+    
+    &.d-block{
+        animation: aparecer ease-in-out .4s;
+    }
+}
+
+@keyframes aparecer {
+
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 100%;
+    }
+    
+}
+
+.box-producto{
+    background-color: var(--color4);
+    padding: 1rem;
+    transition: all .4s;
+
+    .cover-img_producto{
+        overflow: hidden;
+    }
+
+    .img-producto{
+        transition: all .4s;
+    }
+
+    &:hover{
+        -webkit-box-shadow: -1px 10px 23px -7px rgba(0,0,0,0.48);
+        -moz-box-shadow: -1px 10px 23px -7px rgba(0,0,0,0.48);
+        box-shadow: -1px 10px 23px -7px rgba(0,0,0,0.48);
+        overflow: hidden;
+        .img-producto{
+            transform: scale(1.1);
+        }
+    }
+
+    .nombre-producto{
+        font-family: var(--litia);
+        font-size: 1.8rem;
+        padding: 0.5rem;
+        text-transform: uppercase;
+        color: var(--color1);
+    }
+
+    .price{
+        font-family: var(--monse);
+        padding: 0px 0.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .boton-compra{
+        i{
+            font-size: 1.3rem;
+        }
+    }
+}

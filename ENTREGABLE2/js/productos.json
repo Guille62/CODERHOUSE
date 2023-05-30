@@ -1,0 +1,138 @@
+[
+  {
+    "dataproducto": "p1",
+    "id": 1,
+    "name": "ACUARIO FULL",
+    "price": 100.000,
+    "foto": "../img/acuario-1.jpg",
+    "categoria": "acuarios",
+    "stock": 3,
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p2",
+    "id": 2,
+    "name": "ACUARIO BOYU",
+    "price": 70.000,
+    "foto": "../img/acuario-2.jpg",
+    "categoria": "acuarios",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p3",
+    "id": 3,
+    "name": "ACUARIO + MUEBLE",
+    "price": 150.000,
+    "foto": "../img/acuario-3.jpg",
+    "categoria": "acuarios",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p4",
+    "id": 4,
+    "name": "AIREADOR SERA",
+    "price": 20.000,
+    "foto": "../img/aireador-sera.jpg",
+    "categoria": "accesorios",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p5",
+    "id": 5,
+    "name": "FILTRO ESPONJA",
+    "price": 40.000,
+    "foto": "../img/filtro-esponja.jpg",
+    "categoria": "accesorios",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p6",
+    "id": 6,
+    "name": "FILTRO SOBO",
+    "price": 30.000,
+    "foto": "../img/filtro-sobo.jpg",
+    "categoria": "accesorios",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p7",
+    "id": 7,
+    "name": "BETTA",
+    "price": 20.000,
+    "foto": "../img/betta.jpg",
+    "categoria": "peces",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p8",
+    "id": 8,
+    "name": "GOLDFISH",
+    "price": 10.000,
+    "foto": "../img/goldfish.jpg",
+    "categoria": "peces",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p9",
+    "id": 9,
+    "name": "ESCALAR",
+    "price": 15.000,
+    "foto": "../img/escalar.jpg",
+    "categoria": "peces",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p10",
+    "id": 10,
+    "name": "NEON",
+    "price": 5.000,
+    "foto": "../img/neon.jpg",
+    "categoria": "peces",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p11",
+    "id": 11,
+    "name": "PLECOSTOMUS",
+    "price": 55.000,
+    "foto": "../img/plecostomus.jpg",
+    "categoria": "peces",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p12",
+    "id": 12,
+    "name": "TETRA - GOLDFISH",
+    "price": 15.000,
+    "foto": "../img/tetra-goldfish.jpg",
+    "categoria": "alimentos",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p13",
+    "id": 13,
+    "name": "TROPICAL - BETTA",
+    "price": 10.000,
+    "foto": "../img/Tropical-betta.jpg",
+    "categoria": "alimentos",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p14",
+    "id": 14,
+    "name": "SERA - KOI",
+    "price": 32.990,
+    "foto": "../img/sera-koi-royal.jpg",
+    "categoria": "alimentos",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  },
+  {
+    "dataproducto": "p15",
+    "id": 15,
+    "name": "tetrafin - plus",
+    "price": 16.990,
+    "foto": "../img/tetrafin-plus.jpg",
+    "categoria": "alimentos",
+    "resumen": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium voluptatem quis blanditiis porro dignissimos maiores, dolorem, ipsum ab molestias inventore minima!"
+  }
+]

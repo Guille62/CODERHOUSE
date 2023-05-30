@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/entregable-2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body id="calculadora">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="sup"><path fill="#EEEEEE" fill-opacity="1" d="M0,288L40,250.7C80,213,160,139,240,90.7C320,43,400,21,480,16C560,11,640,21,720,42.7C800,64,880,96,960,138.7C1040,181,1120,235,1200,245.3C1280,256,1360,224,1400,208L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    <div class="container">
+        <h1>Calculadora de Acuarios</h1>
+        <p class="bajada">Calcula los litros que necesitas para llenar tu acuario de una manera fácil y rápida.</p>
+        <div class="box--calaculadora">
+            <form id="Calculadora">
+                <p>Ingresa el largo de tu acuario en centímetros (CM)</p>
+                <input type="number" name="Largo" id="largo" placeholder="Ejemplo: 90">
+                <p>Ingresa el ancho de tu acuario en centímetros (CM)</p>
+                <input type="number" name="Ancho" id="ancho" placeholder="Ejemplo: 45">
+                <p>Ingresa el alto de tu acuario en centímetros (CM)</p>
+                <input type="number" name="Alto" id="alto" placeholder="Ejemplo: 45">
+                <br><br>
+                <button  id="Btn-calcular" type="button" class="boton">CALCULAR</button>
+            <div id="box--mensaje">
+                <p>Tu acuario necesita <br><strong id="Valor-resultado"></strong><br> Litros de agua.</p>
+                <strong class="tip">TIP: Recuerda que cada pez necesita un mínimo 1 litro de agua por cada centímetro de su tamaño adulto para evitar problemas de salud. &#128522;</strong>
+                <button  id="Limpiar" type="button" class="boton--clear">VOLVER A CALCULAR</button>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/calculadora-acuario.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+
+body#calculadora{
+    background-color: var(--color1);
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+
+    .container{
+        max-width: 1024px;
+        padding: 15px 2rem;
+        margin: 5rem auto 1rem auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+    }
+    h1{
+        font-family: var(--litia);
+        color: var(--color4);
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .bajada{
+        font-family: var(--monse);
+        color: var(--color2);
+        font-size: 1rem;
+        font-weight: 700;
+        max-width: 500px;
+        text-align: center;
+    }
+    .box--calaculadora{
+        padding: 1.5rem;
+        background-color: var(--color4);
+        width: 100%;
+        max-width: 450px;
+        -webkit-box-shadow: -1px 10px 23px -7px rgba(0,0,0,0.48);
+        -moz-box-shadow: -1px 10px 23px -7px rgba(0,0,0,0.48);
+        box-shadow: -1px 10px 23px -7px rgba(0,0,0,0.48);
+    }
+    .box--calaculadora p{
+        font-family: var(--monse);
+        font-weight: 700;
+        color: var(--color1);
+    }
+    .box--calaculadora input{
+        width: 96%;
+        height: 30px;
+
+        border: solid 1px var(--color1);
+        padding: 5px;
+        appearance: none;
+        color:var(--color1);
+        font-family: var(--monse);
+        font-weight: 700;
+    }
+    .box--calaculadora input::placeholder{
+        font-weight: 400;
+    }
+    .inf{
+        bottom: 0px;
+        margin-bottom: -5px;
+    }
+    
+    .boton{
+        margin: 1rem auto 1rem auto;
+        width: 100%;
+        height: 50px;
+        appearance: none;
+        outline: 0px;
+        background-color: var(--color1);
+        color: var(--color2);
+        border: solid 1px var(--color1);
+        font-family: var(--litia);
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        transition: all .4s;
+        cursor: pointer;
+    }
+    .boton:hover,
+    .boton--clear:hover{
+        border-color: var(--color1);
+        background-color: var(--color2);
+        color: var(--color1);
+    }
+    .boton--clear{
+        margin: 1rem auto 1rem auto;
+        width: 100%;
+        height: 50px;
+        appearance: none;
+
+        outline: 0px;
+        background-color: var(--color1);
+        color: var(--color2);
+        border: solid 1px var(--color1);
+        font-family: var(--litia);
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        transition: all .4s;
+        cursor: pointer;
+    }
+    #box--mensaje{
+        background-color: var(--color3);
+        padding: 1rem;
+
+        display: none;
+    }
+    #box--mensaje p{
+        font-family: var(--litia);
+        font-size: 1.5rem;
+        text-align: center;
+        transition: all .4s;
+    }
+    #box--mensaje #Valor-resultado{
+        font-size: 1.8rem;
+    }
+    #box--mensaje .tip{
+        font-family: var(--monse);
+        text-align: center;
+        display: block;
+        width: 100%;
+        color: var(--color1);
+    }
+    @media screen and (min-width:1024px) {
+        .container{
+            margin: 0rem auto 2rem auto;
+            justify-content: start;
+        }
+        h1{
+            font-size: 3.2rem;
+        }
+        .bajada{
+            font-size: 1.3rem;
+        }
+        .box--calaculadora input{
+            width: 97%;
+        }
+    
+    }
+    @media screen and (min-width:1400px) {
+        h1{
+            font-size: 4.2rem;
+        }
+        .bajada{
+            font-size: 1.7rem;
+            max-width: 700px;
+        }
+    }
+        
+            
+}
